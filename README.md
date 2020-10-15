@@ -46,7 +46,6 @@ Save file pada suatu folder, maka akan diperoleh gambar yang dimaksud
 ![Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436](https://user-images.githubusercontent.com/58078219/96080355-10f73900-0ee1-11eb-8e8b-f58140a75f6d.jpg)
 
 ## Soal 3
-
 Pada Display Capture masukan sintaks `http.host == ppid.dpr.go.id && http.request.method == POST`, maka akan ditemukan username:`10pemuda` dan password:`guncangdunia` di Wireshark Payload
 ![3 0](https://user-images.githubusercontent.com/58078219/96102996-5af01700-0f01-11eb-9b71-97c6a342ad36.jpg)
 
@@ -107,7 +106,6 @@ Hasil berupa file `.pdf` akan terbuka.
 ![6 8](https://user-images.githubusercontent.com/58078219/96087283-cfb95600-0eed-11eb-9727-b461dceda865.jpg)
 
 ## Soal 7
-
 Pada display filter masukan sintaks `frame contains "Yes.pdf"`diikuti dengan pencarian (Find tekan tombol `Ctrl + F`) `zipkey` berupa string. Lalu memilih paket yang dicari dan klik kanan pada paket tersebut -> Follow -> TCP Stream.
 ![7 0](https://user-images.githubusercontent.com/58078219/96088521-bfa27600-0eef-11eb-88c0-ee412ce6e200.jpg)
 
@@ -126,9 +124,10 @@ Hasil berupa file `.pdf` akan terbuka.
 ## Soal 8
 
 ## Soal 9
+Pada display filter masukan sintaks `ftp.request.command == USER || ftp.request.command == PASS`. Sehingga akan diperoleh username:`dhana` dan password:`dhana123`.
+![9 0](https://user-images.githubusercontent.com/58078219/96104689-59275300-0f03-11eb-8fa8-c5f8fc47d9fa.jpg)
 
 ## Soal 10
-
 Pada display filter masukan sintaks masukan sintaks `tcp containss "pdf"` diikuti dengan pencarian (Find tekan tombol `Ctrl + F`) `25 50 44 46` berupa Hexadecimal. Lalu memilih paket yang dicari dan klik kanan pada paket tersebut -> Follow -> TCP Stream.
 ![10 0](https://user-images.githubusercontent.com/58078219/96089765-80752480-0ef1-11eb-92f0-95687badde1b.jpg)
 
@@ -147,7 +146,6 @@ Kembali ke [Daftar isi](#daftar-isi)
 Menggunakan capture filter dan Wireshark masing-masing.
 
 ## Soal 11
-
 Pada Capture Filter masukan sintaks `port 21`. Pilih Wi-Fi (Disesuaikan dengan jaringan yang digunakan saat meng-capture).
 ![11 0](https://user-images.githubusercontent.com/58078219/96091605-04c8a700-0ef4-11eb-9d39-48a307c554ca.jpg)
 
@@ -155,7 +153,6 @@ Hasil Capture Filter hanya mengambil paket yang mengandung `port 21`, namun tida
 ![11 1](https://user-images.githubusercontent.com/58078219/96091613-05f9d400-0ef4-11eb-932d-ad4dfa996b3d.jpg)
 
 ## Soal 12
-
 Pada Capture Filter masukan sintaks `src port 80`. Pilih Wi-Fi (Disesuaikan dengan jaringan yang digunakan saat meng-capture).
 ![12 0](https://user-images.githubusercontent.com/58078219/96091616-072b0100-0ef4-11eb-84d0-d0205bb2ebf9.jpg)
 
@@ -163,7 +160,6 @@ Hasil Capture Filter hanya mengambil paket yang berasal dari `port 80`.
 ![12 1](https://user-images.githubusercontent.com/58078219/96091623-085c2e00-0ef4-11eb-80e3-fc042617af62.jpg)
 
 ## Soal 13
-
 Pada Capture Filter masukan sintaks `dst port 443`. Pilih Wi-Fi (Disesuaikan dengan jaringan yang digunakan saat meng-capture).
 ![13 0](https://user-images.githubusercontent.com/58078219/96091627-098d5b00-0ef4-11eb-9d3e-8b7feb9f3eea.jpg)
 
@@ -171,7 +167,6 @@ Hasil Capture Filter hanya menampilkan paket yang menuju port 443, `dst port 443
 ![13 1](https://user-images.githubusercontent.com/58078219/96091632-0abe8800-0ef4-11eb-813f-bf7a13b29c21.jpg)
 
 ## Soal 14
-
 Pada Capture Filter masukan sintaks `src host 192.168.1.2`. IP Address yang digunakan juga disesuaikan dengan perangkat pengguna. Pilih Wi-Fi (Disesuaikan dengan jaringan yang digunakan saat meng-capture).
 ![14 0](https://user-images.githubusercontent.com/58078219/96091634-0befb500-0ef4-11eb-8817-4875b0f9c211.jpg)
 
@@ -179,7 +174,6 @@ Hasil Capture Filter hanya mengambil paket yang berasal dari ip pengguna.
 ![14 1](https://user-images.githubusercontent.com/58078219/96091638-0c884b80-0ef4-11eb-8b7c-6bb1cd341c8e.jpg)
 
 ## Soal 15
-
 Pada Capture Filter masukan sintaks `dst host monta.if.its.ac.id`. PIlih Wi-Fi (Disesuaikan dengan jaringan yang digunakan saat meng-capture)
 ![15 0](https://user-images.githubusercontent.com/58078219/96091643-0db97880-0ef4-11eb-9dd4-8e26c2e08e15.jpg)
 
