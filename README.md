@@ -34,7 +34,7 @@ Pada display filter masukan sintaks http contains Tim_Kunjungan_Kerja_BAKN_DPR_R
 Setelah memiliki packet, pilih pada menu bar File -> Export Objects -> HTTP
 ![2 3](https://user-images.githubusercontent.com/58078219/96080530-73e8d000-0ee1-11eb-83cf-bab609957367.jpg)
 
-Cari Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg
+Cari Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436. jpg
 ![2 1](https://user-images.githubusercontent.com/58078219/96080343-0c328500-0ee1-11eb-9664-cc9bc1cefeea.jpg)
 
 Save file pada folder tertentu
