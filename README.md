@@ -37,9 +37,6 @@ Setelah memiliki packet, pilih pada menu bar File -> Export Objects -> HTTP
 Cari Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436. jpg
 ![2 1](https://user-images.githubusercontent.com/58078219/96080343-0c328500-0ee1-11eb-9664-cc9bc1cefeea.jpg)
 
-Save file pada folder tertentu
-![2 2](https://user-images.githubusercontent.com/58078219/96080347-0d63b200-0ee1-11eb-83c1-67bdbb6d14e3.jpg)
-
 Maka akan diperoleh gambar yang dimaksud
 ![Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436](https://user-images.githubusercontent.com/58078219/96080355-10f73900-0ee1-11eb-8e8b-f58140a75f6d.jpg)
 
