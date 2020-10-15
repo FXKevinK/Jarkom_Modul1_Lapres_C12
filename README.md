@@ -4,7 +4,7 @@
 * 05111840000162 - Fransiskus Xaverius Kevin Koesnadi
 
 ## Daftar Isi
-* [Soal Display Filter](#display-filter-(-soal-1---10))
+* [Soal Display Filter](#display-filter-soal-1---10)
 * [Soal 1](#soal-1)
 * [Soal 2](#soal-2)
 * [Soal 3](#soal-3)
@@ -83,6 +83,11 @@ Urutan ke-8: Coklat NC (tidak dipakai)
 ## Soal 9
 
 ## Soal 10
+
+Kembali ke [Daftar isi](#daftar-isi)
+
+## Capture Filter (Soal 11 - 15)
+Menggunakan capture filter dan Wireshark masing-masing.
 
 ## Soal 11
 
