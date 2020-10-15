@@ -4,6 +4,7 @@
 * 05111840000162 - Fransiskus Xaverius Kevin Koesnadi
 
 ## Daftar Isi
+* [Soal Display Filter](#display-filter-(-soal-1---10))
 * [Soal 1](#soal-1)
 * [Soal 2](#soal-2)
 * [Soal 3](#soal-3)
@@ -20,7 +21,7 @@
 * [Soal 14](#soal-14)
 * [Soal 15](#soal-15)
 
-## Soal 1 - 10 Display Filter
+## Display Filter (Soal 1 - 10)
 Soal 1-5 dan 10 memiliki Wireshark Capture File yang sama. Soal 6, 7, 9 memiliki Wireshark Capture File yang sama. Soal 8 memiliki Wireshark Capture File tersendiri.
 
 ## Soal 1
