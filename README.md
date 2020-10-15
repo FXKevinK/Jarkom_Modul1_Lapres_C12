@@ -21,6 +21,39 @@
 * [Soal 15](#soal-15)
 
 ## Soal 1
+http.host == "testing.mekanis.me"
+![1 0](https://user-images.githubusercontent.com/58078219/96079835-f5d7f980-0edf-11eb-9a4d-b41fe04bf592.jpg)
+
+Klik kanan pada salah satu paket, pilih follow TCP Stream
+![1 1](https://user-images.githubusercontent.com/58078219/96079942-2e77d300-0ee0-11eb-9510-700acad6f50a.jpg)
+
+## Soal 2
+
+## Soal 3
+
+## Soal 4
+
+## Soal 5
+
+## Soal 6
+
+## Soal 7
+
+## Soal 8
+
+## Soal 9
+
+## Soal 10
+
+## Soal 11
+
+## Soal 12
+
+## Soal 13
+
+## Soal 14
+
+## Soal 15
 
 
 ## Kendala yang  dihadapi saat pengerjaan
