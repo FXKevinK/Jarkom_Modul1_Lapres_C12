@@ -122,13 +122,21 @@ Hasil berupa file `.pdf` akan terbuka.
 ![7 4](https://user-images.githubusercontent.com/58078219/96088541-c630ed80-0eef-11eb-97c5-f1cbf74a4e3a.jpg)
 
 ## Soal 8
+Pada display filter masukan sintaks `ftp contains "Microsoft"`. Lalu catat IP Address Destination dari paket pertama yaitu `198.246.117.106`.
+![8 0](https://user-images.githubusercontent.com/58078219/96118213-60575c80-0f15-11eb-830e-dd6b1f1726a4.jpg)
+
+Berikutnya cari RETR pada IP Address 198.246.117.106 menggunakan display filter `ftp.request.command == RETR && ip.addr == 198.246.117.106`. Lalu pilih paket dengan klik kanan -> Follow -> TCP Stream yang akan memperlihatkan Microsoft FTP Service pada RETR Readme.
+![8 1](https://user-images.githubusercontent.com/58078219/96118221-62212000-0f15-11eb-9a13-908d79298e1f.jpg)
+
+Hasil TCP Stream dari file Readme (Microsoft FTP Service)
+![8 2](https://user-images.githubusercontent.com/58078219/96118757-276bb780-0f16-11eb-83fe-4b55b1698a3d.jpg)
 
 ## Soal 9
 Pada display filter masukan sintaks `ftp.request.command == USER || ftp.request.command == PASS`. Sehingga akan diperoleh username:`dhana` dan password:`dhana123`.
 ![9 0](https://user-images.githubusercontent.com/58078219/96104689-59275300-0f03-11eb-8fa8-c5f8fc47d9fa.jpg)
 
 ## Soal 10
-Pada display filter masukan sintaks masukan sintaks `tcp containss "pdf"` diikuti dengan pencarian (Find tekan tombol `Ctrl + F`) `25 50 44 46` berupa Hexadecimal. Lalu memilih paket yang dicari dan klik kanan pada paket tersebut -> Follow -> TCP Stream.
+Pada display filter masukan sintaks masukan sintaks `tcp contains "pdf"` diikuti dengan pencarian (Find tekan tombol `Ctrl + F`) `25 50 44 46` berupa Hexadecimal. Clue digunakan untuk antisipasi jika terdapat banyak file `.pdf`. Lalu memilih paket yang dicari dan klik kanan pada paket tersebut -> Follow -> TCP Stream.
 ![10 0](https://user-images.githubusercontent.com/58078219/96089765-80752480-0ef1-11eb-92f0-95687badde1b.jpg)
 
 Ubah Show and save data as menjadi `RAW`, lalu save as dengan nama `nomor 10.pdf`. Namun penamaan file tidak memeiliki ketentuan sehingga penamaan file `nomor 10.pdf` dapat diganti.
@@ -170,7 +178,7 @@ Hasil Capture Filter hanya menampilkan paket yang menuju port 443, `dst port 443
 Pada Capture Filter masukan sintaks `src host 192.168.1.2`. IP Address yang digunakan juga disesuaikan dengan perangkat pengguna. Pilih Wi-Fi (Disesuaikan dengan jaringan yang digunakan saat meng-capture).
 ![14 0](https://user-images.githubusercontent.com/58078219/96091634-0befb500-0ef4-11eb-8817-4875b0f9c211.jpg)
 
-Hasil Capture Filter hanya mengambil paket yang berasal dari ip pengguna.
+Hasil Capture Filter hanya mengambil paket yang berasal dari IP pengguna.
 ![14 1](https://user-images.githubusercontent.com/58078219/96091638-0c884b80-0ef4-11eb-8b7c-6bb1cd341c8e.jpg)
 
 ## Soal 15
