@@ -21,14 +21,14 @@
 * [Soal 15](#soal-15)
 
 ## Soal 1
-Pada display filter, masukan sintaks http.host == "testing.mekanis.me"
+Pada display filter, masukan `sintaks http.host == "testing.mekanis.me"`
 ![1 0](https://user-images.githubusercontent.com/58078219/96079835-f5d7f980-0edf-11eb-9a4d-b41fe04bf592.jpg)
 
 Klik kanan pada salah satu paket, pilih Follow -> TCP Stream, maka akan didapatkan server nginx
 ![1 1](https://user-images.githubusercontent.com/58078219/96079942-2e77d300-0ee0-11eb-9510-700acad6f50a.jpg)
 
 ## Soal 2
-Pada display filter masukan sintaks http contains Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg
+Pada display filter masukan sintaks `http contains Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg`
 ![2 0](https://user-images.githubusercontent.com/58078219/96080336-0a68c180-0ee1-11eb-897d-75651814a976.jpg)
 
 Setelah memiliki packet, pilih pada menu bar File -> Export Objects -> HTTP
@@ -43,8 +43,32 @@ Save file pada suatu folder, maka akan diperoleh gambar yang dimaksud
 ## Soal 3
 
 ## Soal 4
+Pada display filter masukan sintaks `http contains basic`, sehingga akan diperoleh web-web yang menggunakan basic authentication
+![4 0](https://user-images.githubusercontent.com/58078219/96081150-e5754e00-0ee2-11eb-97dc-c2f63c58521a.jpg)
 
 ## Soal 5
+Pada display filter masukan sintaks `http.host contains "aku.pengen.pw"`, sesuai soal Username dan password bisa didapatkan dari file .pcapng, setelahnya maka akan dipilih file .png dan dilihat pada Hypertext Transfer Protocol di bagian Wireshark Payload, maka akan ditemukan username: `kakakgamtenk` dan password: `hartatahtabermuda` (Username dan password ini akan dibutuhkan dalam membuka aku.pengen.pw).
+![5 0](https://user-images.githubusercontent.com/58078219/96082102-d2fc1400-0ee4-11eb-9f33-e1008a8bc270.jpg)
+
+Buka web browser lalu buka aku.pengen.pw pada searchbar, dan diberikan dialogue box untuk memasukan username dan password.
+![5 1](https://user-images.githubusercontent.com/58078219/96082118-d7283180-0ee4-11eb-8d9c-7df644fafeec.jpg)
+
+Masukkan username dan password yang sudah ditemukan sebelumnya.
+![5 2](https://user-images.githubusercontent.com/58078219/96082121-d8595e80-0ee4-11eb-8209-de67f12f59a8.jpg)
+
+Hasil diperoleh dengan disertai input urutan konfigurasi kabel T568B. Urutan konfigurasi kabel tersebut:
+```
+Urutan konfigurasi pengkabelan T568B:
+Urutan ke-1: Putih Orange RD+ (data terima+)
+Urutan ke-2: Orange RD- (data terima-)
+Urutan ke-3: Putih Hijau TD+ (data kirim +)
+Urutan ke-4: Biru NC (tidak dipakai)
+Urutan ke-5: Putih Biru NC (tidak dipakai)
+Urutan ke-6: Hijau TD- (data kirim -)
+Urutan ke-7: Putih Coklat NC (tidak dipakai)
+Urutan ke-8: Coklat NC (tidak dipakai)
+```
+![5 3](https://user-images.githubusercontent.com/58078219/96082124-d8f1f500-0ee4-11eb-8264-2c8c71ada034.jpg)
 
 ## Soal 6
 
