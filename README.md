@@ -186,8 +186,6 @@ Hasil Capture Filter hanya mengambil paket yang tujuannya ke monta.if.its.ac.id,
 Kembali ke [Daftar isi](#daftar-isi)
 
 ## Kendala yang  dihadapi saat pengerjaan
-1. Tidak ada
-2. Tidak ada
-3. Tidak ada
+Kurangnya ketelitian di bagian Capture Filter, dan sempat ada terjadinya pencarian filter yang dilakukan secara manual oleh karena terkendala pada comparison operator.
 
 Kembali ke [Daftar isi](#daftar-isi)
