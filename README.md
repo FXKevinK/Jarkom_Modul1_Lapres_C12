@@ -76,6 +76,32 @@ Urutan ke-8: Coklat NC (tidak dipakai)
 ![5 3](https://user-images.githubusercontent.com/58078219/96082124-d8f1f500-0ee4-11eb-8264-2c8c71ada034.jpg)
 
 ## Soal 6
+Pada display filter masukan sintaks `ftp-data` diikuti dengan pencarian (Find tekan tombol `Ctrl + F`) `Answer.zip`.
+![6 0](https://user-images.githubusercontent.com/58078219/96087248-c334fd80-0eed-11eb-8ff1-7af32a0badf8.jpg)
+
+Setelah memilih paket, klik kanan -> Follow -> TCP Stream.
+![6 1](https://user-images.githubusercontent.com/58078219/96087251-c5975780-0eed-11eb-93e9-f983e34d923d.jpg)
+
+Ubah Show and save data as menjadi `RAW`, lalu save as dengan nama `Answer.zip`.
+![6 2](https://user-images.githubusercontent.com/58078219/96087261-c92ade80-0eed-11eb-8350-c95cd1a63117.jpg)
+
+File `Answer.zip` sudah disave.
+![6 3](https://user-images.githubusercontent.com/58078219/96087267-cb8d3880-0eed-11eb-99c5-8ebf01b4fbae.jpg)
+
+Jika membuka file `.zip` tersebut, file `Open This.pdf` memerlukan password.
+![6 4](https://user-images.githubusercontent.com/58078219/96087270-cc25cf00-0eed-11eb-800c-a9f8647fdc0d.jpg)
+
+Kembali ke Wireshark, masukan sintaks yang sama `ftp-data` dan lakukan pencarian (Find tekan tombol `Ctrl + F`) `zipkey`. Lalu pilih pake yang ditemukan -> Kilk kanan -> Follow -> TCP Stream.
+![6 5](https://user-images.githubusercontent.com/58078219/96087273-ccbe6580-0eed-11eb-941b-7ed451cd506c.jpg)
+
+Ditemukan password yang diperlukan untuk membuka file pdf yang ditemukan sebelumnya.
+![6 6](https://user-images.githubusercontent.com/58078219/96087278-cdef9280-0eed-11eb-84b3-004f1daba5ca.jpg)
+
+Masukan password `hey997400323051`
+![6 7](https://user-images.githubusercontent.com/58078219/96087281-cf20bf80-0eed-11eb-8e9a-1e5a371e4813.jpg)
+
+Hasil berupa file `.pdf` akan terbuka.
+![6 8](https://user-images.githubusercontent.com/58078219/96087283-cfb95600-0eed-11eb-9727-b461dceda865.jpg)
 
 ## Soal 7
 
