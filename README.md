@@ -26,7 +26,7 @@
 Soal 1-5 dan 10 memiliki Wireshark Capture File yang sama. Soal 6, 7, 9 memiliki Wireshark Capture File yang sama. Soal 8 memiliki Wireshark Capture File tersendiri.
 
 ## Soal 1
-Pada display filter, masukan `sintaks http.host == "testing.mekanis.me"`
+Pada display filter, masukan sintaks `http.host == "testing.mekanis.me"`
 ![1 0](https://user-images.githubusercontent.com/58078219/96079835-f5d7f980-0edf-11eb-9a4d-b41fe04bf592.jpg)
 
 Klik kanan pada salah satu paket, pilih Follow -> TCP Stream, maka akan didapatkan server nginx
@@ -46,6 +46,9 @@ Save file pada suatu folder, maka akan diperoleh gambar yang dimaksud
 ![Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436](https://user-images.githubusercontent.com/58078219/96080355-10f73900-0ee1-11eb-8e8b-f58140a75f6d.jpg)
 
 ## Soal 3
+
+Pada Display Capture masukan sintaks `http.host == ppid.dpr.go.id && http.request.method == POST`, maka akan ditemukan username:`10pemuda` dan password:`guncangdunia` di Wireshark Payload
+![3 0](https://user-images.githubusercontent.com/58078219/96102996-5af01700-0f01-11eb-9b71-97c6a342ad36.jpg)
 
 ## Soal 4
 Pada display filter masukan sintaks `http contains basic`, sehingga akan diperoleh web-web yang menggunakan basic authentication
