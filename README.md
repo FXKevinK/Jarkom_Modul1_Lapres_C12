@@ -15,6 +15,7 @@
 * [Soal 8](#soal-8)
 * [Soal 9](#soal-9)
 * [Soal 10](#soal-10)
+* [Soal Capture Filter](#capture-filter-soal-11---15)
 * [Soal 11](#soal-11)
 * [Soal 12](#soal-12)
 * [Soal 13](#soal-13)
