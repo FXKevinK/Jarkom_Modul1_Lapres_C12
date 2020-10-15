@@ -145,13 +145,43 @@ Menggunakan capture filter dan Wireshark masing-masing.
 
 ## Soal 11
 
+Pada Capture Filter masukan sintaks `port 21`. Pilih Wi-Fi (Disesuaikan dengan jaringan yang digunakan saat meng-capture).
+![11 0](https://user-images.githubusercontent.com/58078219/96091605-04c8a700-0ef4-11eb-9d39-48a307c554ca.jpg)
+
+Hasil Capture Filter hanya mengambil paket yang mengandung `port 21`, namun tidak terdapat paket karena tidak adanya `port 21`.
+![11 1](https://user-images.githubusercontent.com/58078219/96091613-05f9d400-0ef4-11eb-932d-ad4dfa996b3d.jpg)
+
 ## Soal 12
+
+Pada Capture Filter masukan sintaks `src port 80`. Pilih Wi-Fi (Disesuaikan dengan jaringan yang digunakan saat meng-capture).
+![12 0](https://user-images.githubusercontent.com/58078219/96091616-072b0100-0ef4-11eb-84d0-d0205bb2ebf9.jpg)
+
+Hasil Capture Filter hanya mengambil paket yang berasal dari `port 80`.
+![12 1](https://user-images.githubusercontent.com/58078219/96091623-085c2e00-0ef4-11eb-80e3-fc042617af62.jpg)
 
 ## Soal 13
 
+Pada Capture Filter masukan sintaks `dst port 443`. Pilih Wi-Fi (Disesuaikan dengan jaringan yang digunakan saat meng-capture).
+![13 0](https://user-images.githubusercontent.com/58078219/96091627-098d5b00-0ef4-11eb-9d3e-8b7feb9f3eea.jpg)
+
+Hasil Capture Filter hanya menampilkan paket yang menuju port 443, `dst port 443`.
+![13 1](https://user-images.githubusercontent.com/58078219/96091632-0abe8800-0ef4-11eb-813f-bf7a13b29c21.jpg)
+
 ## Soal 14
 
+Pada Capture Filter masukan sintaks `src host 192.168.1.2`. IP Address yang digunakan juga disesuaikan dengan perangkat pengguna. Pilih Wi-Fi (Disesuaikan dengan jaringan yang digunakan saat meng-capture).
+![14 0](https://user-images.githubusercontent.com/58078219/96091634-0befb500-0ef4-11eb-8817-4875b0f9c211.jpg)
+
+Hasil Capture Filter hanya mengambil paket yang berasal dari ip pengguna.
+![14 1](https://user-images.githubusercontent.com/58078219/96091638-0c884b80-0ef4-11eb-8b7c-6bb1cd341c8e.jpg)
+
 ## Soal 15
+
+Pada Capture Filter masukan sintaks `dst host monta.if.its.ac.id`. PIlih Wi-Fi (Disesuaikan dengan jaringan yang digunakan saat meng-capture)
+![15 0](https://user-images.githubusercontent.com/58078219/96091643-0db97880-0ef4-11eb-9dd4-8e26c2e08e15.jpg)
+
+Hasil Capture Filter hanya mengambil paket yang tujuannya ke monta.if.its.ac.id, paket terdetksi dan dapat di-capture dikarenakan pengguna juga sedang membuka situs monta.if.its.ac.id. Apabila sedang tidak membuka situs tersebt, maka tidak ada paket yang ter-capture.
+![15 1](https://user-images.githubusercontent.com/58078219/96091648-0eeaa580-0ef4-11eb-960c-29c6d7fbbdf9.jpg)
 
 Kembali ke [Daftar isi](#daftar-isi)
 
