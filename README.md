@@ -76,7 +76,7 @@ Urutan ke-8: Coklat NC (tidak dipakai)
 ![5 3](https://user-images.githubusercontent.com/58078219/96082124-d8f1f500-0ee4-11eb-8264-2c8c71ada034.jpg)
 
 ## Soal 6
-Pada display filter masukan sintaks `ftp-data` diikuti dengan pencarian (Find tekan tombol `Ctrl + F`) `Answer.zip`.
+Pada display filter masukan sintaks `ftp-data` diikuti dengan pencarian (Find tekan tombol `Ctrl + F`) `Answer.zip` berupa string.
 ![6 0](https://user-images.githubusercontent.com/58078219/96087248-c334fd80-0eed-11eb-8ff1-7af32a0badf8.jpg)
 
 Setelah memilih paket, klik kanan -> Follow -> TCP Stream.
@@ -85,13 +85,13 @@ Setelah memilih paket, klik kanan -> Follow -> TCP Stream.
 Ubah Show and save data as menjadi `RAW`, lalu save as dengan nama `Answer.zip`.
 ![6 2](https://user-images.githubusercontent.com/58078219/96087261-c92ade80-0eed-11eb-8350-c95cd1a63117.jpg)
 
-File `Answer.zip` sudah disave.
+File `Answer.zip` sudah di-save.
 ![6 3](https://user-images.githubusercontent.com/58078219/96087267-cb8d3880-0eed-11eb-99c5-8ebf01b4fbae.jpg)
 
 Jika membuka file `.zip` tersebut, file `Open This.pdf` memerlukan password.
 ![6 4](https://user-images.githubusercontent.com/58078219/96087270-cc25cf00-0eed-11eb-800c-a9f8647fdc0d.jpg)
 
-Kembali ke Wireshark, masukan sintaks yang sama `ftp-data` dan lakukan pencarian (Find tekan tombol `Ctrl + F`) `zipkey`. Lalu pilih pake yang ditemukan -> Kilk kanan -> Follow -> TCP Stream.
+Kembali ke Wireshark, masukan sintaks yang sama `ftp-data` dan lakukan pencarian (Find tekan tombol `Ctrl + F`) `zipkey` berupa string. Lalu pilih pake yang ditemukan -> Kilk kanan -> Follow -> TCP Stream.
 ![6 5](https://user-images.githubusercontent.com/58078219/96087273-ccbe6580-0eed-11eb-941b-7ed451cd506c.jpg)
 
 Ditemukan password yang diperlukan untuk membuka file pdf yang ditemukan sebelumnya.
@@ -105,11 +105,38 @@ Hasil berupa file `.pdf` akan terbuka.
 
 ## Soal 7
 
+Pada display filter masukan sintaks `frame contains "Yes.pdf"`diikuti dengan pencarian (Find tekan tombol `Ctrl + F`) `zipkey` berupa string. Lalu memilih paket yang dicari dan klik kanan pada paket tersebut -> Follow -> TCP Stream.
+![7 0](https://user-images.githubusercontent.com/58078219/96088521-bfa27600-0eef-11eb-88c0-ee412ce6e200.jpg)
+
+Ubah Show and save data as menjadi `RAW`, lalu save as dengan nama `no7.zip`. Namun penamaan file tidak memeiliki ketentuan sehingga penamaan file `no7.zip` dapat diganti.
+![7 1](https://user-images.githubusercontent.com/58078219/96088527-c16c3980-0eef-11eb-9980-96929d67284f.jpg)
+
+File `no7.zip` sudah di-save
+![7 2](https://user-images.githubusercontent.com/58078219/96088533-c4672a00-0eef-11eb-8630-e5785bdf0a2a.jpg)
+
+Buka file tersebut, maka di dalamnya terdapay file `Yes.pdf`, dan buka file `Yes.pdf`.
+![7 3](https://user-images.githubusercontent.com/58078219/96088537-c4ffc080-0eef-11eb-8668-682b64845e86.jpg)
+
+Hasil berupa file `.pdf` akan terbuka.
+![7 4](https://user-images.githubusercontent.com/58078219/96088541-c630ed80-0eef-11eb-97c5-f1cbf74a4e3a.jpg)
+
 ## Soal 8
 
 ## Soal 9
 
 ## Soal 10
+
+Pada display filter masukan sintaks masukan sintaks `tcp containss "pdf"` diikuti dengan pencarian (Find tekan tombol `Ctrl + F`) `25 50 44 46` berupa Hexadecimal. Lalu memilih paket yang dicari dan klik kanan pada paket tersebut -> Follow -> TCP Stream.
+![10 0](https://user-images.githubusercontent.com/58078219/96089765-80752480-0ef1-11eb-92f0-95687badde1b.jpg)
+
+Ubah Show and save data as menjadi `RAW`, lalu save as dengan nama `nomor 10.pdf`. Namun penamaan file tidak memeiliki ketentuan sehingga penamaan file `nomor 10.pdf` dapat diganti.
+![10 1](https://user-images.githubusercontent.com/58078219/96089773-823ee800-0ef1-11eb-9b18-0587a120896a.jpg)
+
+File `nomor 10.pdf` sudah di-save
+![10 2](https://user-images.githubusercontent.com/58078219/96089779-84a14200-0ef1-11eb-8bc1-6dad6de882db.jpg)
+
+Hasil berupa file `.pdf` akan terbuka.
+![10 3](https://user-images.githubusercontent.com/58078219/96089785-8539d880-0ef1-11eb-8506-cac1a24a4693.jpg)
 
 Kembali ke [Daftar isi](#daftar-isi)
 
