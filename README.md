@@ -20,6 +20,9 @@
 * [Soal 14](#soal-14)
 * [Soal 15](#soal-15)
 
+## Soal 1 - 10 Display Filter
+Soal 1-5 dan 10 memiliki Wireshark Capture File yang sama. Soal 6, 7, 9 memiliki Wireshark Capture File yang sama. Soal 8 memiliki Wireshark Capture File tersendiri.
+
 ## Soal 1
 Pada display filter, masukan `sintaks http.host == "testing.mekanis.me"`
 ![1 0](https://user-images.githubusercontent.com/58078219/96079835-f5d7f980-0edf-11eb-9a4d-b41fe04bf592.jpg)
@@ -47,7 +50,7 @@ Pada display filter masukan sintaks `http contains basic`, sehingga akan diperol
 ![4 0](https://user-images.githubusercontent.com/58078219/96081150-e5754e00-0ee2-11eb-97dc-c2f63c58521a.jpg)
 
 ## Soal 5
-Pada display filter masukan sintaks `http.host contains "aku.pengen.pw"`, sesuai soal Username dan password bisa didapatkan dari file .pcapng, setelahnya maka akan dipilih file .png dan dilihat pada Hypertext Transfer Protocol di bagian Wireshark Payload, maka akan ditemukan username: `kakakgamtenk` dan password: `hartatahtabermuda` (Username dan password ini akan dibutuhkan dalam membuka aku.pengen.pw).
+Pada display filter masukan sintaks `http.host contains "aku.pengen.pw"`, Setelahnya maka paket networking_meme.png dan dilihat pada Hypertext Transfer Protocol di bagian Wireshark Payload, maka akan ditemukan username: `kakakgamtenk` dan password: `hartatahtabermuda` (Username dan password ini akan dibutuhkan dalam membuka aku.pengen.pw).
 ![5 0](https://user-images.githubusercontent.com/58078219/96082102-d2fc1400-0ee4-11eb-9f33-e1008a8bc270.jpg)
 
 Buka web browser lalu buka aku.pengen.pw pada searchbar, dan diberikan dialogue box untuk memasukan username dan password.
