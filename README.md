@@ -96,7 +96,7 @@ Jika membuka file `.zip` tersebut, file `Open This.pdf` memerlukan password.
 Kembali ke Wireshark, masukan sintaks yang sama `ftp-data` dan lakukan pencarian (Find tekan tombol `Ctrl + F`) `zipkey` berupa string. Lalu pilih pake yang ditemukan -> Kilk kanan -> Follow -> TCP Stream.
 ![6 5](https://user-images.githubusercontent.com/58078219/96087273-ccbe6580-0eed-11eb-941b-7ed451cd506c.jpg)
 
-Ditemukan password yang diperlukan untuk membuka file pdf yang ditemukan sebelumnya.
+Ditemukan password yang diperlukan untuk membuka file `.pdf` yang ditemukan sebelumnya.
 ![6 6](https://user-images.githubusercontent.com/58078219/96087278-cdef9280-0eed-11eb-84b3-004f1daba5ca.jpg)
 
 Masukan password `hey997400323051`
@@ -109,13 +109,13 @@ Hasil berupa file `.pdf` akan terbuka.
 Pada display filter masukan sintaks `frame contains "Yes.pdf"`diikuti dengan pencarian (Find tekan tombol `Ctrl + F`) `zipkey` berupa string. Lalu memilih paket yang dicari dan klik kanan pada paket tersebut -> Follow -> TCP Stream.
 ![7 0](https://user-images.githubusercontent.com/58078219/96088521-bfa27600-0eef-11eb-88c0-ee412ce6e200.jpg)
 
-Ubah Show and save data as menjadi `RAW`, lalu save as dengan nama `no7.zip`. Namun penamaan file tidak memeiliki ketentuan sehingga penamaan file `no7.zip` dapat diganti.
+Ubah Show and save data as menjadi `RAW`, lalu save as dengan nama `no7.zip`. Namun penamaan file tidak memiliki ketentuan sehingga penamaan file `no7.zip` dapat diganti.
 ![7 1](https://user-images.githubusercontent.com/58078219/96088527-c16c3980-0eef-11eb-9980-96929d67284f.jpg)
 
 File `no7.zip` sudah di-save
 ![7 2](https://user-images.githubusercontent.com/58078219/96088533-c4672a00-0eef-11eb-8630-e5785bdf0a2a.jpg)
 
-Buka file tersebut, maka di dalamnya terdapay file `Yes.pdf`, dan buka file `Yes.pdf`.
+Buka file tersebut, maka di dalamnya terdapat file `Yes.pdf`, dan buka file `Yes.pdf`.
 ![7 3](https://user-images.githubusercontent.com/58078219/96088537-c4ffc080-0eef-11eb-8668-682b64845e86.jpg)
 
 Hasil berupa file `.pdf` akan terbuka.
@@ -136,7 +136,7 @@ Pada display filter masukan sintaks `ftp.request.command == USER || ftp.request.
 ![9 0](https://user-images.githubusercontent.com/58078219/96104689-59275300-0f03-11eb-8fa8-c5f8fc47d9fa.jpg)
 
 ## Soal 10
-Pada display filter masukan sintaks masukan sintaks `tcp contains "pdf"` diikuti dengan pencarian (Find tekan tombol `Ctrl + F`) `25 50 44 46` berupa Hexadecimal. Clue digunakan untuk antisipasi jika terdapat banyak file `.pdf`. Lalu memilih paket yang dicari dan klik kanan pada paket tersebut -> Follow -> TCP Stream.
+Pada display filter masukan sintaks masukan sintaks `tcp contains "pdf"` diikuti dengan pencarian (Find tekan tombol `Ctrl + F`) `25 50 44 46` berupa Hexadecimal. Clue pada soal digunakan untuk antisipasi jika terdapat banyak file `.pdf`. Lalu memilih paket yang dicari dan klik kanan pada paket tersebut -> Follow -> TCP Stream.
 ![10 0](https://user-images.githubusercontent.com/58078219/96089765-80752480-0ef1-11eb-92f0-95687badde1b.jpg)
 
 Ubah Show and save data as menjadi `RAW`, lalu save as dengan nama `nomor 10.pdf`. Namun penamaan file tidak memeiliki ketentuan sehingga penamaan file `nomor 10.pdf` dapat diganti.
